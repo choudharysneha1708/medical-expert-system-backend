@@ -43,7 +43,7 @@ app.post("/user", async (req, res) => {
 
     // Send a response to the client
     res.send(
-      `Precautions: ${finalString}`
+      `${finalString}`
     );
   } catch (error) {
     console.error("Error handling user data:", error);
