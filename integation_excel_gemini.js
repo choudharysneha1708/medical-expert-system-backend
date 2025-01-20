@@ -85,3 +85,4 @@ async function generatePrecaution(prompt) {
     return ["Error generating precaution: " + error.message];
   }
 }
+

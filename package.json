@@ -2,10 +2,9 @@
   "dependencies": {
     "@google/generative-ai": "^0.7.1",
     "axios": "^1.6.8",
-    "dotenv": "^16.4.5",
+    "dotenv": "^16.4.7",
     "express": "^4.19.2",
-    "openai": "^4.38.2",
-    "xlsx": "^0.18.5"
+    "openai": "^4.38.2"
   },
   "name": "mini_backend",
   "version": "1.0.0",
@@ -14,7 +13,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "choudharysneha1708",
   "license": "ISC",
-  "description": ""
+  "description": "it's the server for providing what are the precation user should take, when user is sufering from provided symptoms",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/choudharysneha1708/medical-expert-system-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/choudharysneha1708/medical-expert-system-backend/issues"
+  },
+  "homepage": "https://github.com/choudharysneha1708/medical-expert-system-backend#readme"
 }
