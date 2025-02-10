@@ -1,10 +1,12 @@
 const express = require("express");
 require("dotenv").config();
+const cors = require("cors");
 const app = express();
 const port = 3000;
 const fs = require("fs");
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 const genAI = new GoogleGenerativeAI(process.env.GENAI_API_KEY);
+app.use(cors());
 app.use(express.json());
 
 // Route handler for the root path ("/")
